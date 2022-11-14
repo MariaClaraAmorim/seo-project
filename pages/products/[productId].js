@@ -12,7 +12,7 @@ export default function Product({ productId, title }) {
         description="Este exemplo usa mais opções de configuração disponíveis."
         canonical="https://www.canonical.ie/"
         openGraph={{
-          url: "https://fake-app-five.vercel.app/",
+          url: "https://seo-project-omega.vercel.app/",
           title: "Open Graph Title",
           description: "Open Graph Description",
           images: [
