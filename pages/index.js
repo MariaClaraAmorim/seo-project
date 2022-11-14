@@ -2,7 +2,6 @@ import Head from "next/head";
 import About from "./about";
 import Product from "./products/[productId]";
 
-import { popularProducts } from "./data";
 
 export default function Home() {
   return (
