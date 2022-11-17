@@ -27,19 +27,12 @@ export default function Product({ productId, title }) {
 
           images: [
             {
-              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
-              // url: post.host + post.meta.thumb,
+              url: "https://oggibikes.com.br/wp-content/uploads/2022/04/bw-7-4-azul-scaled.jpg",
               width: 800,
               height: 600,
-              alt: post.meta.auth,
               type: "image/jpeg",
             },
-            {
-              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
-            },
-            {
-              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
-            },
+  
           ],
           site_name: "Teste SEO",
         }}
