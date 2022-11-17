@@ -15,13 +15,30 @@ export default function Product({ productId, title }) {
           url: "https://seo-project-omega.vercel.app/",
           title: "Open Graph Title",
           description: "Open Graph Description",
+          // images: [
+          //   {
+          //     url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
+          //     width: 800,
+          //     height: 600,
+          //     alt: "Og Image Alt",
+          //     type: "image/jpeg",
+          //   },
+          // ],
+
           images: [
             {
               url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
+              // url: post.host + post.meta.thumb,
               width: 800,
               height: 600,
-              alt: "Og Image Alt",
+              alt: post.meta.auth,
               type: "image/jpeg",
+            },
+            {
+              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
+            },
+            {
+              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
             },
           ],
           site_name: "Teste SEO",

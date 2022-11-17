@@ -2,7 +2,6 @@ import Head from "next/head";
 import About from "./about";
 import Product from "./products/[productId]";
 
-
 export default function Home() {
   return (
     <>
@@ -18,6 +17,14 @@ export default function Home() {
 
       <div>
         <h1 className="title"> Dantas Bikes</h1>
+
+        <nav>
+          <ol>
+            <a href="">1</a>
+          </ol>
+          <ol>2</ol>
+          <ol>3</ol>
+        </nav>
       </div>
     </>
   );
