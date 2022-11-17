@@ -15,10 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" /> */}
 
         <title>Home</title>
-        <meta property="og:image" content="/bikeOGGI.jpeg" />
-        <meta property="og:image:secure_url" content="/bikeOGGI.jpeg" />
-        <meta name="twitter:image" content="/bikeOGGI.jpeg" />
-        <meta name="twitter:image:src" content="/bikeOGGI.jpeg" />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
           content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
