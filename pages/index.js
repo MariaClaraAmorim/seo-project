@@ -1,44 +1,33 @@
-import { NextSeo } from "next-seo";
 import Head from "next/head";
 import About from "./about";
 import Product from "./products/[productId]";
 
-export default function Home({host}) {
+export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+        {/* <title>Home</title>
+        <meta x name="description" content="Home da página de teste SEO" />
+        <meta property="og:title" content="Home - Página teste" />
+        <meta property="og:description" content="Home da página de teste SEO" />
+        <meta property="og:url" content="https://myclothingstore.com/about" />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.ico" /> */}
 
-      <NextSeo
-        title="Home"
-        description="Este exemplo usa mais opções de configuração disponíveis."
-        canonical="https://www.canonical.ie/"
-        openGraph={{
-          url: "https://seo-project-omega.vercel.app/",
-          title: "Open Graph Title",
-          description: "Open Graph Description",
-          images: [
-            {
-              url:  host + "/bikeOGGI.jpg",
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt",
-              type: "image/jpeg",
-            },
-          ],
-          site_name: "Teste SEO",
-        }}
-      />
+        <title>Home</title>
+        <meta property="og:image" content="/bikeOGGI.jpeg" />
+        <meta property="og:image:secure_url" content="/bikeOGGI.jpeg" />
+        <meta name="twitter:image" content="/bikeOGGI.jpeg" />
+        <meta name="twitter:image:src" content="/bikeOGGI.jpeg" />
+        <meta
+          property="og:description"
+          content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+        />
+      </Head>
 
       <div>
         <h1 className="title"> Dantas Bikes</h1>
       </div>
     </>
   );
-}
-
-// Obtém o post completo
-export async function getStaticProps({ params }) {
-	return { props: { host: process.env["HOST"]} };
 }

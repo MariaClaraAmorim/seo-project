@@ -27,6 +27,7 @@ export default function Product({ productId, title }) {
           site_name: "Teste SEO",
         }}
         twitter={{
+          
           handle: "@seo",
           site: "@seo",
           cardType: "summary_large_image",
