@@ -17,7 +17,7 @@ export default function Product({ productId, title }) {
           description: "Open Graph Description",
           images: [
             {
-              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
+              url: "https://oggibikes.com.br/wp-content/uploads/2022/04/bw-7-4-azul-scaled.jpg",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
