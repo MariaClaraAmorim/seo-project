@@ -17,14 +17,6 @@ export default function Home() {
 
       <div>
         <h1 className="title"> Dantas Bikes</h1>
-
-        <nav>
-          <ol>
-            <a href="">1</a>
-          </ol>
-          <ol>2</ol>
-          <ol>3</ol>
-        </nav>
       </div>
     </>
   );

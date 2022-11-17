@@ -15,24 +15,14 @@ export default function Product({ productId, title }) {
           url: "https://seo-project-omega.vercel.app/",
           title: "Open Graph Title",
           description: "Open Graph Description",
-          // images: [
-          //   {
-          //     url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
-          //     width: 800,
-          //     height: 600,
-          //     alt: "Og Image Alt",
-          //     type: "image/jpeg",
-          //   },
-          // ],
-
           images: [
             {
-              url: "https://oggibikes.com.br/wp-content/uploads/2022/04/bw-7-4-azul-scaled.jpg",
+              url: "https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg",
               width: 800,
               height: 600,
+              alt: "Og Image Alt",
               type: "image/jpeg",
             },
-  
           ],
           site_name: "Teste SEO",
         }}
