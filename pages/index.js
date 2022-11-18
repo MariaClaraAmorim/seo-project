@@ -1,29 +1,28 @@
 import Head from "next/head";
-import About from "./about";
-import Product from "./products/[productId]";
 
-export default function Home() {
+import { useRouter } from "next/router";
+
+export default function Home(props) {
+  const router = useRouter();
+
+  const {
+    title = "Home",
+    metaDescription = "Essa é a descrição teste para o seo do dantas bike",
+  } = props;
+
   return (
     <>
       <Head>
-        <title>Home</title>
-        <meta
-          name="description"
-          content="Essa é a descrição teste para o seo do dantas bike"
-        />
-
+        <title>{title}</title>
+        <meta name="description" content={metaDescription} />
         <meta
           property="og:url"
           content="https://seo-project-omega.vercel.app/"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Home | Meu portfólio" />
-        <meta
-          property="og:description"
-          content="Essa é a descrição teste para o seo do dantas bike"
-        />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content="/bikeOGGI.png" />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:domain"
@@ -34,11 +33,8 @@ export default function Home() {
           content="https://seo-project-omega.vercel.app/"
         />
         <meta property="og:image" content="/bikeOGGI.png" />
-        <meta name="twitter:title" content="Home | Meu portfólio" />
-        <meta
-          name="twitter:description"
-          content="Essa é a descrição teste para o seo do dantas bike"
-        />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content="/bikeOGGI.png" />
       </Head>
       <div>
