@@ -15,6 +15,10 @@ export default function Home() {
         <meta property="og:image:secure_url" content="/bikeOGGI.png" />
         <meta name="twitter:image" content="/bikeOGGI.png" />
         <meta name="twitter:image:src" content="/bikeOGGI.png" />
+        <meta name="skype:image" content="/bikeOGGI.png" />
+        <meta name="skype:image:src" content="/bikeOGGI.png" />
+        <meta name="whatsapp:image" content="/bikeOGGI.png" />
+        <meta name="whatsapp:image:src" content="/bikeOGGI.png" />
         <meta
           property="og:description"
           content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
